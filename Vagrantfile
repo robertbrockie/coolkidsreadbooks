@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.provider :virtualbox do |vb|
     vb.name = "Cool Kids Read Books - trusty64 - v1.0.0"
-    vb.memory = 512 # MB
+    vb.memory = 1024 # MB
     vb.cpus = 1
   end
 
