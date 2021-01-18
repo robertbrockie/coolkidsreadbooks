@@ -22,3 +22,8 @@ ul.books img {
 ul.books > li {
     display: inline-block;
 }
+
+footer {
+    font-size: 10px;
+    text-align: right;
+}
