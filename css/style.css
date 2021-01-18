@@ -1,3 +1,23 @@
 body {
     font-family: 'Special Elite', cursive;
 }
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+ul.books {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.books img {
+    height: 200px;
+    width: 133px;
+}
+
+ul.books > li {
+    display: inline-block;
+}
