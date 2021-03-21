@@ -8,6 +8,10 @@ body {
     width: 800px;
 }
 
+h1 {
+    text-align: center;
+}
+
 ul.books {
     list-style-type:none;
     margin: 0;
